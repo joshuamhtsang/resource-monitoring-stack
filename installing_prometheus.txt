@@ -1,0 +1,20 @@
+#################
+### Objective ###
+#################
+
+Install Prometheus on your local machine to run using systemd.
+
+#############
+### Steps ###
+#############
+
+Download the Prometheus binary:
+https://prometheus.io/download/#prometheus
+
+Choose the 'linux' version.  Untar it:
+$ tar -zxvf prometheus-2.32.0-beta.0.linux-amd64.tar.gz
+
+$ cd prometheus-2.32.0-beta.0.linux-amd64/
+
+At this point I'm not sure whether I should cp the prometheus binary to /usr/local/bin,
+since I don't know how it can find the prometheus.yml.
